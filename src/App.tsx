@@ -12,32 +12,25 @@ const App: React.FC = () => {
 
   const projects = [
     {
-      title: 'Plastic Memories 数据库',
-      description: '包含动画角色、剧情、设定等详细资料的综合数据库',
+      title: 'Plastic Memories Gallery',
+      description: '官方作品/粉丝二创作品的展示平台',
       link: '#',
       github: '#',
       status: '开发中'
     },
     {
-      title: 'Giftia 模拟器',
-      description: '基于动画设定的交互式角色模拟器',
+      title: 'Isla Land',
+      description: '《可塑性记忆》粉丝社区，提供交流和资源分享平台',
       link: '#',
       github: '#',
       status: '规划中'
-    },
-    {
-      title: '回忆收集器',
-      description: '粉丝创作内容的展示和分享平台',
-      link: '#',
-      github: '#',
-      status: '开发中'
     },
     {
       title: 'Plastic Memories Wiki',
       description: '社区驱动的可塑性记忆百科全书',
       link: '#',
       github: '#',
-      status: '维护中'
+      status: '规划中'
     }
   ];
 
@@ -87,7 +80,7 @@ const App: React.FC = () => {
               className="bg-black hover:bg-gray-800 text-white border-0"
               onClick={scrollToProjects}
             >
-              探索项目
+              了解我们
               <ChevronDown className="ml-2 h-4 w-4" />
             </Button>
             <Button 
@@ -112,10 +105,10 @@ const App: React.FC = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              我们的项目
+              项目
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Plastic Memories PROJECT 包含多个子项目，每个都致力于不同方面的内容创作和社区建设
+              Plastic Memories PROJECT 是一个大型企划。其包含多个子项目，致力于不同方面的内容创作和社区建设
             </p>
           </div>
 
@@ -153,7 +146,7 @@ const App: React.FC = () => {
                     </Button>
                     <Button size="sm" variant="outline">
                       <Github className="mr-2 h-4 w-4" />
-                      源码
+                      仓库
                     </Button>
                   </div>
                 </CardContent>
@@ -190,43 +183,15 @@ const App: React.FC = () => {
               <p className="text-gray-400 mb-4">
                 致力于可塑性记忆的爱好者项目
               </p>
-              <div className="flex gap-4">
-                <Button size="sm" variant="ghost" className="text-gray-400 hover:text-white">
-                  <Github className="h-4 w-4" />
-                </Button>
-                <Button size="sm" variant="ghost" className="text-gray-400 hover:text-white">
-                  <Star className="h-4 w-4" />
-                </Button>
-              </div>
-            </div>
-            
-            <div>
-              <h4 className="text-lg font-semibold mb-4">快速链接</h4>
-              <ul className="space-y-2">
-                <li><a href="#projects" className="text-gray-400 hover:text-white transition-colors">项目列表</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">贡献指南</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">社区讨论</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">联系我们</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h4 className="text-lg font-semibold mb-4">相关资源</h4>
-              <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">官方动画</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">原作小说</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">音乐原声</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">周边商品</a></li>
-              </ul>
             </div>
           </div>
           
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
             <p className="mb-2">
-              © 2024 Plastic Memories PROJECT. 本项目为非营利性粉丝项目。
+              © 2025 Plastic Memories PROJECT. 本项目为非营利性粉丝项目，与 Aniplex Inc. 及其关联公司无关。
             </p>
             <p className="text-sm">
-              ICP备案号：<a href="#" className="hover:text-white transition-colors">京ICP备xxxxxx号</a> | 
+              ICP备案号：<a href="#" className="hover:text-white transition-colors">滇ICP备2025059072号-2</a> | 
               版权声明：本站内容仅供学习交流使用
             </p>
           </div>
