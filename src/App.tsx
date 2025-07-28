@@ -174,6 +174,18 @@ const App: React.FC = () => {
         </div>
       </section>
 
+      {/* Quote Section */}
+      <section className="py-16 px-6 bg-gradient-to-r from-pink-100/30 to-blue-100/30">
+        <div className="max-w-4xl mx-auto text-center">
+          <blockquote className="text-2xl md:text-3xl text-gray-700 mb-4 font-serif italic leading-relaxed">
+            "大切な人と、いつかまた巡り会えますように。"
+          </blockquote>
+          <cite className="text-gray-500 text-sm">
+            — Plastic Memories
+          </cite>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-800 text-gray-300 py-12 px-6">
         <div className="max-w-6xl mx-auto">
