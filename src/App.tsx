@@ -67,7 +67,7 @@ const App: React.FC = () => {
             PROJECT
           </h2>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-            致力于可塑性记忆的爱好者项目
+            Make Plastic Memories Great Again!
             <br />
             <span className="text-lg text-gray-500">
               "即使是人造的回忆，也有着无可替代的价值"
@@ -193,7 +193,7 @@ const App: React.FC = () => {
             <div>
               <h3 className="text-xl font-semibold mb-4">Plastic Memories PROJECT</h3>
               <p className="text-gray-400 mb-4">
-                致力于可塑性记忆的爱好者项目
+                Make Plastic Memories Great Again!
               </p>
             </div>
           </div>
@@ -203,8 +203,8 @@ const App: React.FC = () => {
               © 2025 Plastic Memories PROJECT. 本项目为非营利性粉丝项目，与 Aniplex Inc. 及其关联公司无关。
             </p>
             <p className="text-sm">
-              ICP备案号：<a href="#" className="hover:text-white transition-colors">滇ICP备2025059072号-2</a> | 
-              版权声明：本站内容仅供学习交流使用
+              <a href="https://beian.miit.gov.cn/" className="hover:text-white transition-colors">滇ICP备2025059072号-2</a> | 
+              声明：本站内容仅供学习交流使用
             </p>
           </div>
         </div>
