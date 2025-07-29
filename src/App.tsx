@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './components/ui/card';
 import { Button } from './components/ui/button';
-import { ChevronDown, Github, ExternalLink, Heart, Star } from 'lucide-react';
+import { ChevronDown, Github, ExternalLink, Heart } from 'lucide-react';
 
 const App: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
