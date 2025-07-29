@@ -91,6 +91,12 @@
   }
 }
 
+/* 日文引用字体 */
+.japanese-quote {
+  font-family: Georgia, "Times New Roman", "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Noto Serif CJK JP", "Source Han Serif", serif;
+  font-feature-settings: "palt" 1;
+}
+
 html {
   scroll-behavior: smooth;
 }
