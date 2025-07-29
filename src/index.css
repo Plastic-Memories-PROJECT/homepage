@@ -78,6 +78,17 @@
   color: transparent;
   text-shadow: none;
   font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  .stroke-text {
+    -webkit-text-stroke: 0.5px #000000;
+    letter-spacing: -0.05em;
+    line-height: 1.0;
+  }
 }
 
 html {

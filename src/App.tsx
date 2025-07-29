@@ -58,8 +58,8 @@ const App: React.FC = () => {
         <div className={`relative z-10 text-center px-6 transition-all duration-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
-          <h1 className="text-6xl md:text-8xl font-bold mb-6">
-            <span className="stroke-text">
+          <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold mb-6 leading-tight">
+            <span className="stroke-text block">
               Plastic Memories
             </span>
           </h1>
