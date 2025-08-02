@@ -60,7 +60,7 @@ const App: React.FC = () => {
         }`}>
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold mb-6 leading-tight">
             <span className="stroke-text block">
-              Plastic Memories
+              PLASTIC MEMORIES
             </span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-light text-gray-700 mb-8">

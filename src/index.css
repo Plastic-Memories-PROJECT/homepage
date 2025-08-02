@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 定义 Patika 字体 */
+@font-face {
+  font-family: 'Patika';
+  src: url('/fonts/Patika-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -73,21 +83,25 @@
 }
 
 .stroke-text {
-  -webkit-text-stroke: 1px #000000;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  text-shadow: none;
-  font-weight: 900;
+  font-family: 'Patika', sans-serif;
+  font-weight: 500; /* Medium weight */
   line-height: 1.1;
   letter-spacing: -0.02em;
+  -webkit-text-stroke: 0.8px #000000;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 /* 移动端优化 */
 @media (max-width: 768px) {
   .stroke-text {
-    -webkit-text-stroke: 0.5px #000000;
+    -webkit-text-stroke: 0.25px #000000;
+    -webkit-text-fill-color: transparent;
     letter-spacing: -0.05em;
     line-height: 1.0;
+    font-family: 'Patika', sans-serif;
+    font-weight: 500;
+    color: transparent;
   }
 }
 
