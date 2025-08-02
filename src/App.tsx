@@ -87,6 +87,7 @@ const App: React.FC = () => {
               size="lg" 
               variant="outline"
               className="border-gray-300 hover:bg-white/50"
+              onClick={() => window.open('https://github.com/Plastic-Memories-PROJECT', '_blank')}
             >
               <Github className="mr-2 h-4 w-4" />
               GitHub
